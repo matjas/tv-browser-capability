@@ -1,0 +1,22 @@
+{
+  "name": "tv_browser_capability",
+  "version": "1.0.0",
+  "description": "this application tests and shows browser compability with common css properties. Tests based on modernizr library.",
+  "main": "index.js",
+  "scripts": {
+    "modernizr": "modernizr -c modernizr-config.json --dest './build/js/modernizr.js'"
+  },
+  "author": "Maciej Jaskuła",
+  "license": "MIT",
+  "dependencies": {
+    "modernizr": "^3.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "latest",
+    "gulp-livereload": "^3.8.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-webserver": "^0.9.1",
+    "del": "latest"
+  }
+}
